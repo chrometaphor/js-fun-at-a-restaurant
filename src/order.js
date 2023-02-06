@@ -14,7 +14,6 @@ function refundOrder(orderNumber, orderList) {
     }
   }
 }
-The function "refundOrder" takes two parameters: "orderNumber" and "orderList". It loops through the orderList array using a for loop and the loop counter "i".
 
 // It checks if the orderNumber of the current order in the orderList is equal to the passed in orderNumber using an if statement.
 // If the orderNumber of the current order in the orderList matches the passed in orderNumber, the function uses the splice method to remove the current order from the orderList.
